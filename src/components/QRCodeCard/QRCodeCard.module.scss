@@ -1,0 +1,89 @@
+@import "../../styles/variables.scss";
+@import "../../styles/fonts.scss";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+  max-width: 320px;
+  width: 100%;
+  height: 499px;
+  padding: 16px 16px 40px 16px;
+  margin: 0 auto;
+  gap: 24px;
+  background-color: $white;
+  border-radius: 20px;
+
+  /* card-shadow */
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+
+  .qr_container {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    background-color: $blue-600;
+
+    /* top-left circle */
+    &::before {
+      content: "";
+      position: absolute;
+      width: 328px;
+      height: 328px;
+      top: -166px;
+      left: -130px;
+      border-radius: 50%;
+      background-color: $blue-500;
+      z-index: 1;
+    }
+
+    /* bottom-right circle */
+    &::after {
+      content: "";
+      position: absolute;
+      width: 270px;
+      height: 270px;
+      top: 204px;
+      left: 131px;
+      border-radius: 50%;
+      background-color: $blue-500;
+      z-index: 1;
+    }
+  }
+  .qr_code {
+    position: relative;
+    z-index: 2;
+  }
+}
+.title_container {
+  padding: 0 16px;
+  .card_title {
+    align-self: stretch;
+    color: $slate-900;
+    text-align: center;
+    font-feature-settings: "liga" off, "clig" off;
+    margin-bottom: 16px;
+    font-family: $font-family-base;
+    font-size: $font-size-heading;
+    font-style: normal;
+    font-weight: $font-weight-bold;
+    line-height: 120%; /* 26.4px */
+  }
+  .card_description {
+    align-self: stretch;
+    color: $slate-500;
+    text-align: center;
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    font-style: normal;
+    font-weight: $font-weight-regular;
+    line-height: 140%; /* 21px */
+    letter-spacing: 0.2px;
+  }
+}

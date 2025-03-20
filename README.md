@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/0s0ka/cata-qr-code-component.git)
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [My repo](https://github.com/0s0ka/cata-qr-code-component.git)
+- Live Site URL: [My pages]()
 
 ### Built with
 
@@ -37,12 +37,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Website - [Luv Osokina](https://github.com/0s0ka)
 - Frontend Mentor - [@0s0ka](https://www.frontendmentor.io/profile/0s0ka)
 
-
 ### Available Scripts
 
 In the project directory, you can run:
 
-#### `npm start`
+```bash
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
