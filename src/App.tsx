@@ -1,24 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import QRCodeCard from "./components/QRCodeCard/QRCodeCard";
 
 function App() {
+  // Text for the title and description of the QR code card
+  const title = "Improve your front-end skills by building projects";
+  const description =
+    "Scan the QR code to visit Frontend Mentor and take your coding skills to the next level";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <QRCodeCard title={title} description={description} />
     </div>
   );
 }
