@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/0s0ka/cata-qr-code-component/static/css/main.24b142c0.css",
+    "main.js": "/0s0ka/cata-qr-code-component/static/js/main.72052ae5.js",
+    "static/media/Outfit-Regular.woff": "/0s0ka/cata-qr-code-component/static/media/Outfit-Regular.104333704987b1915d3f.woff",
+    "static/media/Outfit-Bold.woff": "/0s0ka/cata-qr-code-component/static/media/Outfit-Bold.ee237185cc954df4572c.woff",
+    "static/media/Outfit-Regular.woff2": "/0s0ka/cata-qr-code-component/static/media/Outfit-Regular.7c6b519d14276a94c192.woff2",
+    "static/media/Outfit-Bold.woff2": "/0s0ka/cata-qr-code-component/static/media/Outfit-Bold.33f6fa549035b28113fd.woff2",
+    "index.html": "/0s0ka/cata-qr-code-component/index.html",
+    "main.24b142c0.css.map": "/0s0ka/cata-qr-code-component/static/css/main.24b142c0.css.map",
+    "main.72052ae5.js.map": "/0s0ka/cata-qr-code-component/static/js/main.72052ae5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24b142c0.css",
+    "static/js/main.72052ae5.js"
+  ]
+}
