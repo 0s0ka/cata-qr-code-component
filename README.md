@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [My repo](https://github.com/0s0ka/cata-qr-code-component.git)
-- Live Site URL: [My pages]()
+- Live Site URL: [My pages](https://0s0ka.github.io/cata-qr-code-component/)
 
 ### Built with
 
